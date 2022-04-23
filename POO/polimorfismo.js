@@ -1,3 +1,8 @@
+/**
+ * Polimorfismo - Exemplos
+ * 
+ * Exercicio 1 - Quero que vocês tentem dar novas funcionalidades para a conta poupança.
+ */
 class Conta {
   constructor(numero, titular) {
     this.numero = numero;
@@ -6,6 +11,7 @@ class Conta {
   }
 
   deposita(valor) {
+    // this.saldo = this.saldo + valor;
     this.saldo += valor;
   }
 

@@ -1,3 +1,7 @@
+/**
+ * Abstração - Exemplos
+ * Exercicio 1 - Exemplos de abstração no dia a dia, se quiser implementar pode.
+ */
 class FazerCafe {
   constructor(quantidade_acucar, quantidade_po) {
     this.quantidade_acucar = quantidade_acucar;
