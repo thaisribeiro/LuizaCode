@@ -1,7 +1,10 @@
+/**
+ * Exercicio 1 - Refatorar nomes de variaveis e incrementar retorno de numeros impares
+ */
 function removeEven(arr) {
-  var odds = [];
+  let odds = [];
   for (let number of arr) {
-    if (number % 2 != 0) {
+    if (number % 2 === 0) {
         odds.push(number);
     }
   }
